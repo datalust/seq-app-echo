@@ -2,5 +2,6 @@
   "$schema": "https://getseq.net/schema/app-definition/v1",
   "name": "Echo",
   "description": "Copies events from its input to its output.",
-  "executable": "Seq.App.Echo.exe"
+  "executable": "Seq.App.Echo.exe",
+  "settings": {}
 }
