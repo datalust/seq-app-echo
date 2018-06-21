@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5EB73580-B910-4D32-A1FC-A83A7F20D5FA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{22E15F9D-1EE6-45B9-83B9-0C08132B0E86}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B190E8A9-D34C-4B05-9D3B-D7C0AB0687DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seq.App.Echo", "src\Seq.App.Echo\Seq.App.Echo.csproj", "{8D1DBEAF-06A5-4EE4-8AE0-2DEE25B45348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D1DBEAF-06A5-4EE4-8AE0-2DEE25B45348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1DBEAF-06A5-4EE4-8AE0-2DEE25B45348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1DBEAF-06A5-4EE4-8AE0-2DEE25B45348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1DBEAF-06A5-4EE4-8AE0-2DEE25B45348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D1DBEAF-06A5-4EE4-8AE0-2DEE25B45348} = {B190E8A9-D34C-4B05-9D3B-D7C0AB0687DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7074257D-B90B-4699-A039-BC402B8EFADE}
+	EndGlobalSection
+EndGlobal
